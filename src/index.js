@@ -5,7 +5,7 @@ import './index.css';
 
 function tick() {
 	ReactDOM.render(
-		<Clock date={new Date()} />,
+		<Clock />,
 		document.getElementById('root')
 	);
 }
